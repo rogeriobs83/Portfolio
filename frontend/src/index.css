@@ -1,0 +1,98 @@
+@import 'tailwindcss';
+
+:root {
+  --text: #fefefe;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body: linear-gradient(90deg, #040c34 0%, #0b10a8 100%);
+  }
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+body .header, body footer {
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+/* camada de blur */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/fundobg.png') center/cover no-repeat;
+  filter: blur(10px);
+  z-index: -1;
+  transform: scale(1.5);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading);
+  color: var(--text);
+  margin: 0;
+  font-size: var(--sans);
+}
+
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+

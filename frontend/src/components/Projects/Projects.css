@@ -1,0 +1,193 @@
+.projects {
+  background: radial-gradient(circle at top, #1b2b3f, #050811);
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 1rem 0;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 2rem;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 350px;
+  height:auto;
+  background: linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
+  border-radius: 16px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  transform: scale(0.85);
+  scroll-snap-align: first;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.card h3 {
+  margin: 0.4rem 0;
+  color: #fff;
+}
+
+.card p {
+  color: #d7d7d7;
+  font-size: 0.95rem;
+  margin-bottom: 3.5rem;
+}
+
+.card a {
+  position:absolute;
+  bottom: 15px;
+  display: inline-block;
+  height: fit-content;
+  margin-top: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.card-link {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.card a:hover {
+  background: rgba(255,255,255,0.24);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 3rem;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.12);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  z-index: 10;
+}
+
+.arrow:hover {
+  background: rgba(255,255,255,0.24);
+  
+}
+
+.left {
+  left: 0.3rem;
+  opacity: 0.6;
+}
+
+.right {
+  opacity: 0.6;
+  right: 0.3rem;
+}
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  
+  scroll-snap-align: center;
+}
+
+@media (max-width: 1240px) {
+  .card {
+    width: 100%;
+    min-width: 49.5rem;
+  }
+
+  .projects {
+    width: 95%;
+  }
+
+  .arrow {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    min-width: 22.2rem;
+  }
+  
+  .card a {
+  position:absolute;
+  bottom: 15px;
+  display: inline-block;
+  height: fit-content;
+  margin-top: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+  .projects {
+    width: 95%;
+  }
+} 

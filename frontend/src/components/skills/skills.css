@@ -1,0 +1,148 @@
+
+
+.skills {
+  background: radial-gradient(circle at top, #1b2b3f, #050811);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #172222;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
+.skills h2 {
+  text-align: center;
+  margin: 1.5rem;
+  color: #fff;
+}
+
+.skills-container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto 20px auto;
+  display: grid;
+  border-radius: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  transform: translateY(0);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 12rem;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card i {
+  font-size: 6rem;
+  margin-bottom: 10px;
+  color: #d28407;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .skills-container {
+   grid-template-columns: repeat(1, 1fr);
+   padding: 0;
+  }
+
+  .skills {
+    width: 95%;
+    padding: 3px;
+    margin: 20px auto;
+  }
+
+
+  .skill-card {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .skill-card i {
+    font-size: 3rem;
+  }
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.25s ease forwards;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: #333;
+}
+
+/* ENTRADA */
+.modal-content.opening {
+  animation: modalUp 0.6s ease forwards;
+}
+
+/* SAÍDA */
+.modal-content.closing {
+  animation: modalDown 0.4s ease forwards;
+}
+
+@keyframes modalUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes modalDown {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+}
+
+
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #0f0e0e;
+}
