@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero-section">
       <div className="hero">
         <div className="part-1">
-        <img src={`${import.meta.env.BASE_URL}fotominha.jpg`} alt="Foto de Rogério" />
+        <img src={`${import.meta.env.BASE_URL}image.webp`} alt="Foto de Rogério" />
         </div>
         <div className="part-2">
         <h2>Hi, I'm Rogério.</h2>

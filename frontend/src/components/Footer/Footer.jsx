@@ -3,10 +3,10 @@ import './Footer.css'
 function Footer() {
 
     return(
-        <footer class="footer">
+        <footer className="footer">
   <p>© 2026 Rogerio — Todos os direitos reservados.</p>
 
-  <div class="footer-links">
+  <div className="footer-links">
     <a href="#projects">Projetos</a>
     <a href="#contact">Contato</a>
     <a href="https://github.com/seuGitHub" target="_blank">GitHub</a>
