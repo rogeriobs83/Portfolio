@@ -13,19 +13,19 @@ function Projects() {
       title: "🌿 Aura — Lifestyle Landing Page",
       description:
         "Aura is a clean, minimalist landing page focused on calm living and natural balance. It presents a lifestyle concept through simple design, soft visuals, and a clear message of well-being.",
-      image: "/Copilot-1.png",
+      image: "/Copilot-1.avif",
       link: "https://aura.rogeriobs.dev/",
     },
     {
       title: "☕ Roast & Beans — Artisan Coffee Website ",
       description: "A cozy multi‑page coffee website featuring handcrafted blends, a curated menu, and a warm, modern brand experience.",
-      image: "/src/assets/Copilot_20260814_195822.jpeg",
+      image: "/Roast.avif",
       link: "https://coffee-shop-160.pages.dev/",
     },
     {
       title: "🍋🇮🇹 Sicilian Restaurant — Authentic Mediterranean Dining",
       description: "A Sicilian restaurant website offering an authentic Mediterranean dining experience with a focus on traditional flavors and modern design.",
-      image: "/Pane&Braci.webp",
+      image: "/Pane-Braci.webp",
       link: "https://rogeriobs.dev/",
     },
     {

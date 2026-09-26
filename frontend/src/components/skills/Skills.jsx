@@ -58,7 +58,7 @@ function Skills() {
 
   return (
     <>
-      <section className="skills">
+      <section className="skills" id="Skills">
         <h2>Skills</h2>
 
         <div className="skills-container">
