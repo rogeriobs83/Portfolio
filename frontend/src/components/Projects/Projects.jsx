@@ -13,37 +13,37 @@ function Projects() {
       title: "🌿 Aura — Lifestyle Landing Page",
       description:
         "Aura is a clean, minimalist landing page focused on calm living and natural balance. It presents a lifestyle concept through simple design, soft visuals, and a clear message of well-being.",
-      image: "./Copilot-1.avif",
+      image: "/Copilot-1.avif",
       link: "https://aura.rogeriobs.dev/",
     },
     {
       title: "☕ Roast & Beans — Artisan Coffee Website ",
       description: "A cozy multi‑page coffee website featuring handcrafted blends, a curated menu, and a warm, modern brand experience.",
-      image: "./Roast.avif",
+      image: "/Roast.avif",
       link: "https://coffee-shop-160.pages.dev/",
     },
     {
       title: "🍋🇮🇹 Sicilian Restaurant — Authentic Mediterranean Dining",
       description: "A Sicilian restaurant website offering an authentic Mediterranean dining experience with a focus on traditional flavors and modern design.",
-      image: "./Pane-Braci.webp",
+      image: "/Pane-Braci.webp",
       link: "https://rogeriobs.dev/",
     },
     {
       title: "🖤 NOIR — Casual Wear Mini E‑commerce",
       description: "NOIR is a casual wear mini e-commerce store offering a curated selection of stylish and comfortable clothing.",
-      image: "./NOIR.webp",
+      image: "/NOIR.webp",
       link: "https://noir-7aa.pages.dev/",
     },
     {
       title: "🏋️‍♂️ Fitness Tracker App — Daily Progress & Training UI",
       description: "A comprehensive fitness app experience, tracking daily progress and providing training UI for users.",
-      image: "./fundobg.png",
+      image: "/fundobg.png",
       link: "https://fitness-tracker.example.com",
     },
     {
       title: "Portfolio Site",
       description: "Design moderno para site de portfólio.",
-      image: "./fundo.png",
+      image: "/fundo.png",
       link: "https://portfolio.example.com",
     },
   ];
