@@ -1,6 +1,8 @@
 import "./header.css";
 import { useState } from "react";
 
+// Removed the import of Link from react-router-dom since we're using anchor tags now
+
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 

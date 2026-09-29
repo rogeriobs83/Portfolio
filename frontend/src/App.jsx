@@ -1,9 +1,9 @@
-import Skills from './components/skills/Skills'
-import Header from './components/header/Header'
-import Hero from './components/hero/Hero'
-import Projects from './components/Projects/Projects'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import Skills from './pages/skills/Skills'
+import Header from './pages/header/Header'
+import Hero from './pages/hero/Hero'
+import Projects from './pages/Projects/Projects'
+import Contact from './pages/Contact/Contact'
+import Footer from './pages/Footer/Footer'
 import './App.css'
 
 function App() {
