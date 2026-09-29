@@ -4,11 +4,11 @@ function Footer() {
 
     return(
         <footer className="footer">
-  <p>© 2026 Rogerio — Todos os direitos reservados.</p>
+  <p>© 2026 Rogerio — All rights reserved.</p>
 
   <div className="footer-links">
-    <a href="#projects">Projetos</a>
-    <a href="#contact">Contato</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
     <a href="https://github.com/seuGitHub" target="_blank">GitHub</a>
   </div>
 </footer>

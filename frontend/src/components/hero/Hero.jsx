@@ -2,7 +2,7 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="Hero">
       <div className="hero">
         <div className="part-1">
         <img src={`${import.meta.env.BASE_URL}image.webp`} alt="Foto de Rogério" />
@@ -14,8 +14,8 @@ function Hero() {
         <span className="block">Crafting modern, responsive, and user-friendly</span>web experiences,
           turning ideas into life.
         </p>
-        <button>View My Work</button>
-        <button>Get in Touch</button>
+        <a href="#Work" className="button">View My Work</a>
+        <a href="#Contact" className="button">Get in Touch</a>
         </div>
       </div>
     </section>

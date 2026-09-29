@@ -37,13 +37,13 @@ function Projects() {
     {
       title: "🏋️‍♂️ Fitness Tracker App — Daily Progress & Training UI",
       description: "A comprehensive fitness app experience, tracking daily progress and providing training UI for users.",
-      image: "/fundobg.png",
-      link: "https://fitness-tracker.example.com",
+      image: "/Fitness_tracker.webp",
+      link: "https://fitness-tracker-3yz.pages.dev/",
     },
     {
-      title: "Portfolio Site",
-      description: "Design moderno para site de portfólio.",
-      image: "/fundo.png",
+      title: "⚒️ Work in progress",
+      description: "This section is currently under development. New updates will be available soon.",
+      image: "/new_project.avif",
       link: "https://portfolio.example.com",
     },
   ];
