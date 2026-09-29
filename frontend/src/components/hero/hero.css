@@ -15,7 +15,7 @@
 }
 
 .hero .button {
-  background-color: none;
+  background-color: transparent;
   color: #fff;
   border: 1px solid var(--accent);
   padding: 10px;

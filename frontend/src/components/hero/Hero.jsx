@@ -14,7 +14,7 @@ function Hero() {
         <span className="block">Crafting modern, responsive, and user-friendly</span>web experiences,
           turning ideas into life.
         </p>
-        <a href="#Work" className="button">View My Work</a>
+        <a href="#Projects" className="button">View My Work</a>
         <a href="#Contact" className="button">Get in Touch</a>
         </div>
       </div>
